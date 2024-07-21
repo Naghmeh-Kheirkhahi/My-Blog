@@ -1,0 +1,285 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main {
+    background-color: rgb(235, 235, 235);
+}
+
+
+#main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    margin-bottom: 0;
+}
+
+.subheading {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.blackSub {
+    background-color: black;
+    color: white;
+    padding: 0 0.5rem;
+    margin-left: 0.2rem;
+}
+
+
+
+
+.mainContent {
+    padding: 4rem 5rem;
+}
+
+/* .leftContent {
+    padding-right: 1rem;
+} */
+
+.titleHeading {
+    background-color: white;
+    box-shadow: -1px 1px 15px 3px gray;
+}
+
+.titleHeading img {
+    width: 100%;
+}
+
+.titleHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0 0 1rem;
+}
+
+.titleDescription {
+    display: flex;
+    font-size: 1.2rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.date {
+    color: rgb(143, 143, 143);
+    padding-left: 0.5rem;
+}
+
+.description {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1rem;
+}
+
+
+.moreInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.moreInfo a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 1rem;
+}
+
+.moreInfo a:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.moreInfo i {
+    font-size: 0.6rem;
+}
+
+.comments {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.commentNum {
+    background-color: black;
+    color: white;
+    padding: 0 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+/* .rightContent {
+    padding-left: 1rem;
+} */
+
+.introduction {
+    background-color: white;
+    box-shadow: -1px 1px 15px 3px gray;
+}
+
+.introduction img {
+    width: 100%;
+}
+
+.introduction h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem 0 0 1rem;
+}
+
+.introduction p {
+    font-size: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    margin-bottom: 0;
+}
+
+
+
+
+.posts {
+    background-color: white;
+    box-shadow: -1px 1px 15px 3px gray;
+}
+
+.posts h3 {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 0;
+}
+
+.post {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: flex;
+    padding: 1rem 0 1.5rem 1rem;
+    align-items: center;
+}
+
+.post:hover {
+    background-color: rgb(200, 200, 200)
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+}
+
+.picDescription {
+    padding-left: 1rem;
+}
+
+.picDescription p {
+    margin-bottom: 0;
+}
+
+
+
+
+.tags {
+    background-color: white;
+    box-shadow: -1px 1px 15px 3px gray;
+}
+
+.tags h3 {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 0;
+}
+
+.tag {
+    padding: 1rem;
+}
+
+.tag span {
+    font-size: 0.8rem;
+    background-color: rgb(235, 235, 235);
+    padding: 2px 4px;
+    width: max-content;
+}
+
+.specialTag {
+    background-color: black !important;
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    background-color: rgb(88, 88, 88);
+    padding: 2rem 0 2rem 1rem;
+}
+
+#footerBtn1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+    color: rgb(160, 160, 160);
+}
+
+#footerBtn1:hover {
+    background-color: rgb(160, 160, 160);
+    border: 1px solid rgb(160, 160, 160);
+    color: rgb(59, 59, 59);
+}
+
+
+#footerBtn2 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+#footerBtn2:hover {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
+    color: black;
+}
+
+
+footer p {
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 2rem;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+/* mobile format */
+
+@media (max-width: 992px) {
+    
+
+    .mainContent {
+        padding: 4rem 1rem;
+    }
+
+    /* .leftContent {
+        padding-right: 0;
+    } */
+    
+    .rightContent {
+        padding-top: 3rem;
+    }
+
+}
